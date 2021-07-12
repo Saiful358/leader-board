@@ -157,7 +157,7 @@ hr{
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
     }
-    .players, .blogs{
+    .player, .blogs{
         flex-direction: column;
     }
 }
@@ -168,8 +168,8 @@ hr{
    .container{
        width: 100%;
    } 
-   .players, .courses{
-       grid-template-columns: repeat(2, 1fr);
+   .player, .courses{
+       grid-template-columns: repeat(1, 1fr);
    }
    .blogs{
        grid-template-columns: repeat(1, 1fr);
